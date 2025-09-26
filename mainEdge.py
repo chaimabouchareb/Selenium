@@ -9,7 +9,7 @@ service = Service(executable_path='C:\\webdrivers\\msedgedriver.exe')
 options = webdriver.EdgeOptions()
 driver = webdriver.Edge(service=service, options=options)
 driver.maximize_window()
-driver.get("https://cevasanteanimale-tstv11.outsystemsenterprise.com/PHP/")
+driver.get("https://google.com/")
 time.sleep(10)
 driver.find_element(By.CLASS_NAME, "submenu OSInline is--dropdown").click()
 

@@ -15,6 +15,6 @@ search_box = driver.find_element("name", "q")
 search_box.send_keys("Selenium WebDriver")
 search_box.send_keys(Keys.RETURN)
 
-time.sleep(50)
+time.sleep(30)
 
 driver.quit()
